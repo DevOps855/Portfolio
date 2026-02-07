@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Anant Ingle | DevOps Engineer</title>
 
 <script src="https://cdn.tailwindcss.com"></script>
@@ -22,29 +23,33 @@ tailwind.config = {
 
 <style>
 .gradient{
-  background:linear-gradient(45deg,#2563eb,#059669);
-  -webkit-background-clip:text;
-  color:transparent;
+background:linear-gradient(45deg,#2563eb,#059669);
+-webkit-background-clip:text;
+color:transparent;
 }
 </style>
 </head>
 
 <body class="bg-gray-50 text-gray-800 dark:bg-gray-900 dark:text-white">
 
-<!-- NAV -->
+<!-- NAVBAR -->
 <header class="fixed w-full bg-white/80 dark:bg-gray-900/80 backdrop-blur shadow">
-<div class="container mx-auto px-6 py-4 flex justify-between">
+<div class="container mx-auto px-6 py-4 flex justify-between items-center">
+
 <div class="font-bold text-xl gradient">Anant Ingle</div>
+
 <nav class="space-x-6 hidden md:block">
 <a href="#about">About</a>
 <a href="#projects">Projects</a>
 <a href="#skills">Skills</a>
+<a href="#achievements">Achievements</a>
 <a href="#contact">Contact</a>
 </nav>
+
 </div>
 </header>
 
-<!-- HERO WITH PHOTO -->
+<!-- HERO -->
 <section class="min-h-screen flex items-center pt-20">
 <div class="container mx-auto px-6">
 
@@ -59,18 +64,18 @@ Hi, I'm <span class="gradient">Anant Ingle</span>
 <h2 class="text-xl mb-4">DevOps Engineer</h2>
 
 <p class="text-gray-600 dark:text-gray-300 mb-6">
-4+ years experience building CI/CD pipelines, cloud infrastructure,
-and containerized deployments using AWS, Kubernetes, and Docker.
-Focused on automation and scalability.
+DevOps Engineer with 4+ years experience designing CI/CD pipelines,
+cloud infrastructure, and container deployments using AWS,
+Kubernetes, and Docker. Focused on automation and reliability.
 </p>
 
 </div>
 
 <!-- PHOTO -->
 <div class="md:w-1/2 flex justify-center mt-8 md:mt-0">
-<div class="w-56 h-56 rounded-full overflow-hidden border-4 border-primary">
-<img src="IMG_20260207_192454.jpg.jpeg"
-class="w-full h-full object-cover">
+<div class="w-56 h-56 rounded-full overflow-hidden border-4 border-primary shadow-lg">
+<img src="IMG_20260207_192454.jpg"
+class="w-full h-full object-cover scale-105 hover:scale-110 transition duration-500">
 </div>
 </div>
 
@@ -86,8 +91,8 @@ class="w-full h-full object-cover">
 
 <p class="max-w-3xl mx-auto">
 Assistant System Analyst working on enterprise banking platforms.
-Experienced in automation, monitoring, and infrastructure deployment
-across cloud and container ecosystems.
+Experienced in automation, monitoring, CI/CD pipelines,
+and infrastructure deployment across cloud and container ecosystems.
 </p>
 
 </div>
@@ -103,18 +108,20 @@ across cloud and container ecosystems.
 
 <div class="bg-white dark:bg-gray-800 p-6 rounded shadow">
 <h3 class="font-semibold text-xl mb-2">CI/CD Pipeline on Kubernetes</h3>
-<p>Automated build and deployment workflow using Jenkins, Docker,
-and Kubernetes.</p>
+<p>Automated build and deployment workflow using Jenkins,
+Docker, SonarQube, and Kubernetes.</p>
 </div>
 
 <div class="bg-white dark:bg-gray-800 p-6 rounded shadow">
 <h3 class="font-semibold text-xl mb-2">Code Promotion Tool</h3>
-<p>Release automation integrating Git and Nexus artifact flow.</p>
+<p>Release automation integrating Git and Nexus for
+artifact lifecycle management.</p>
 </div>
 
 <div class="bg-white dark:bg-gray-800 p-6 rounded shadow">
 <h3 class="font-semibold text-xl mb-2">Ticket Analyzer</h3>
-<p>Operational automation tool improving issue analysis efficiency.</p>
+<p>Operational automation tool improving incident
+analysis and response efficiency.</p>
 </div>
 
 </div>
@@ -128,6 +135,7 @@ and Kubernetes.</p>
 <h2 class="text-3xl font-bold mb-8">Core Skills</h2>
 
 <div class="flex flex-wrap justify-center gap-4 text-lg">
+
 <span class="bg-white dark:bg-gray-700 px-4 py-2 rounded shadow">AWS</span>
 <span class="bg-white dark:bg-gray-700 px-4 py-2 rounded shadow">Docker</span>
 <span class="bg-white dark:bg-gray-700 px-4 py-2 rounded shadow">Kubernetes</span>
@@ -135,6 +143,32 @@ and Kubernetes.</p>
 <span class="bg-white dark:bg-gray-700 px-4 py-2 rounded shadow">Git</span>
 <span class="bg-white dark:bg-gray-700 px-4 py-2 rounded shadow">Linux</span>
 <span class="bg-white dark:bg-gray-700 px-4 py-2 rounded shadow">Terraform</span>
+
+</div>
+</div>
+</section>
+
+<!-- ACHIEVEMENTS -->
+<section id="achievements" class="py-20 text-center">
+<div class="container mx-auto px-6">
+
+<h2 class="text-3xl font-bold mb-10">Achievements</h2>
+
+<div class="flex justify-center">
+<div class="bg-white dark:bg-gray-800 p-8 rounded shadow max-w-md">
+
+<i class="fas fa-award text-4xl text-primary mb-4"></i>
+
+<h3 class="text-xl font-semibold mb-2">
+Star Employee of the Quarter
+</h3>
+
+<p class="text-gray-600 dark:text-gray-300">
+Recognized for outstanding performance, automation impact,
+and improving deployment efficiency within enterprise systems.
+</p>
+
+</div>
 </div>
 
 </div>
@@ -157,6 +191,7 @@ LinkedIn
 </div>
 </section>
 
+<!-- FOOTER -->
 <footer class="text-center py-6 bg-gray-100 dark:bg-gray-800">
 © 2026 Anant Ingle
 </footer>
